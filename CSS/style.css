@@ -207,7 +207,25 @@ main > h1 {
 .container-mkt hr {
     height: 4px;
     border: none;
-    animation: barra infinite 2s;
+    animation: barraHr infinite 2s;
+}
+
+@keyframes barraHr {
+    0% {
+        background-color: #c30000;
+    }
+
+    50% {
+        background-color: #cd5200;
+    }
+
+    75% {
+        background-color: rgb(255, 0, 72);
+    }
+
+    100% {
+        background-color: #c30000;
+    }
 }
 /* Footer */
 
