@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/*------------*/
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 0;
+}
+
+.bloco1 {
+    padding: 5px;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #121212;
+    padding: 30px 15px;
+}
+
+.bloco1 > h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bloco1 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 19px;
+}
+
+.bloco1 > p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+
+.btn-comprar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-image: linear-gradient(to right,#e62c22,#ffa230);
+    padding: 10px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+    outline: none;
+    background-size: 200%;
+}
+.btn-comprar:hover {
+    background-position: right;
+}
+
+.btn-wraper {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+}
+
+main > h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px 10px;
+}
+
+.conteudo-curso {
+    max-width: 600px;
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.bloco-conteudo-curso {
+    padding: 10px;
+}
+
+.conteudo-space {
+    font-family: 'Montserrat',sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-size: 18px;
+    width: 100%;
+    margin: 25px 0px;
+    background-image: linear-gradient(to right,#cd5200,#c30000);
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s ease;
+    box-shadow: 0px 0px 17px #00000042;
+}
+
+/* Container 2 */
+
+.container2 {
+    padding: 40px 0 10px 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    color: rgb(99, 99, 99);
+}
+
+footer p a {
+    color: rgb(99, 99, 99);
+    transition: .3s;
+}
+
+footer p a:hover {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right,red,orange);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 610px) {
+    .conteudo-curso {
+        border-radius: 0px;
+    }
+}
