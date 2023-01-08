@@ -228,6 +228,45 @@ main > h1 {
         background-color: #c30000;
     }
 }
+
+/* Container 3 */
+
+.container3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 h1 {
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.container3 p {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    max-width: 500px;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.p-wraper {
+    max-width: 600px;
+    padding-bottom: 30px;
+}
+
+.p-wraper span {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to top right,red,orange);
+}
+
 /* Footer */
 
 footer {
