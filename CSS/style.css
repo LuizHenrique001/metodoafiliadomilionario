@@ -162,9 +162,38 @@ main > h1 {
 /* Container 2 */
 
 .container2 {
-    padding: 40px 0 10px 0;
+    padding: 40px 10px 10px 10px;
+    width: 100%;
+    text-align: center;
 }
 
+.container-mkt {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    max-width: 600px;
+}
+
+.container-mkt h1 {
+    padding: 15px 0;
+}
+
+.container-mkt h2 {
+    font-weight: normal;
+    padding: 5px 0px 18px 0;
+    font-size: 20px;
+}
+
+.container-mkt p {
+    padding: 16px 0;
+}
+
+.container-mkt hr {
+    height: 4px;
+    border: none;
+    margin: 10px 10px;
+    background-image: linear-gradient(to right,red, orange);
+}
 /* Footer */
 
 footer {
