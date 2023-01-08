@@ -208,7 +208,7 @@ main > h1 {
     height: 4px;
     border: none;
     animation: barraHr infinite 2s;
-    margin: 25px;
+    margin: 25px 30px;
 }
 
 @keyframes barraHr {
