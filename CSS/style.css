@@ -146,7 +146,23 @@ main > h1 {
     width: 8px;
     padding-bottom: 10%;
     margin-right: 10px;
-    background-image: linear-gradient(to top right,#cd5200,#c30000);
+    /*background-image: linear-gradient(to top right,#cd5200,#c30000);*/
+    animation: barra infinite 2s;
+}
+
+@keyframes barra {
+    0% {
+        background-color: #c30000;
+    }
+
+    50% {
+        background-color: #cd5200;
+    }
+
+    100% {
+        background-color: #c30000;
+        background-position: left;
+    }
 }
 
 .content-curso {
@@ -191,8 +207,7 @@ main > h1 {
 .container-mkt hr {
     height: 4px;
     border: none;
-    margin: 10px 10px;
-    background-image: linear-gradient(to right,red, orange);
+    animation: barra infinite 2s;
 }
 /* Footer */
 
